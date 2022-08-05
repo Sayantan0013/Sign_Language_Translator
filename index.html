@@ -38,10 +38,27 @@
         <a href="#">START</a>
     </div>
 
-    <button type="button" id="btnHowToUse" class="btn mt-4 btn-lg mx-3">HOW TO USE?</button>
+    <button type="button" id="btnHowToUse" class="btn mt-4 btn-lg mx-3" onclick="howToUse()">HOW TO USE?</button>
 
-
-
+    <div class="modal" id="myModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">How To Use?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Your webcam will be opened after clicking the start button. Please show the sign which you want
+                        to translate.</p>
+                    <img id="gif1" src="./images/gif1.gif" class="mx-auto d-block" alt="Here's the GIF">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Including JavaScript codes-->
     <script src="./index.js"></script>
