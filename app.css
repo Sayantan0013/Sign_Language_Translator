@@ -39,3 +39,8 @@ a:hover {
 #btnHowToUse:hover {
     transform: translateY(-10px);
 }
+
+#gif1 {
+    height: 55%;
+    width: 55%;
+}
