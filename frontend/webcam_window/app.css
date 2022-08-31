@@ -1,0 +1,22 @@
+body {
+    background-color: #e5e5e5 !important;
+
+}
+
+div {
+    background-color: #7FB69C !important;
+    color: white;
+}
+
+video {
+    width: 640;
+    height: 480;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display: block;
+    margin: 0 auto;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
