@@ -4,7 +4,7 @@ import time
 import numpy as np
 import pickle
 
-cap  = cv2.VideoCapture(1)
+cap  = cv2.VideoCapture(0)
 mpHands = mp.solutions.hands
 hands = mpHands.Hands(max_num_hands=1)
 mpDraw = mp.solutions.drawing_utils
